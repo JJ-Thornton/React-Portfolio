@@ -16,19 +16,26 @@
   --ravenBronze: #bc832f;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 412px) {
   /* Start.js */
   .full-page {
-    padding: 2em 0 0 0;
+    padding: 10px 0 0 0;
+  }
+
+  .page-title {
+    margin: 10px auto;
   }
 
   .big-title {
-    font-size: 6em;
+    font-size: 5em;
+    padding: 5px;
   }
 
   .list-group {
+    width: 5em;
     flex-direction: column;
     font-size: 4em;
+    text-align: center;
   }
 
   /* MainContent.js */
@@ -83,6 +90,11 @@
     flex-direction: column;
     padding: 0;
     width: 100%;
+  }
+
+  /* Projects.js */
+  .project {
+    width: 80%;
   }
 
   /* ContactMe.js */
