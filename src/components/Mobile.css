@@ -63,7 +63,7 @@
 
   /* Skills.js */
   .outline {
-    padding: 1.25em;
+    padding: 1.5em;
   }
 
   .second-title {
@@ -73,6 +73,11 @@
   .second-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .list-containers {
+    padding: 0;
+    margin: 0 -10px 0 0;
   }
 
   .items {
@@ -89,7 +94,8 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-    width: 100%;
+    width: 75%;
+    margin: 0 0 0 7px;
   }
 
   /* Projects.js */
