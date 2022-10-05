@@ -1,0 +1,331 @@
+@font-face {
+  font-family: 'matchbookmatchbook';
+  src: url('../fonts/matchbook/matchbook-webfont.woff2') format('woff2'),
+    url('../fonts/matchbook/matchbook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --black: #220901;
+  --brownish: #621708;
+  --maroonRed: #941b0c;
+  --mediumOrange: #bc3908;
+  --goldenYellow: #f6aa1c;
+
+  /* Hogwarts colors */
+  --gryfRed: #740001;
+  --gryfGold: #d3a625;
+  --slythGreen: #1a472a;
+  --slythSilver: #999898;
+  --huffleYellow: #ffd800;
+  --huffleBlack: #000000;
+  --ravenBlue: #0e1a50;
+  --ravenBronze: #bc832f;
+}
+
+.main-heading {
+  color: var(--brownish);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--slythGreen);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--gryfGold);
+  width: 5px;
+  border-radius: 100vw;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: var(--slythSilver);
+}
+
+a:hover {
+  color: var(--ravenBlue);
+  font-weight: 700;
+}
+
+#aboutme {
+  padding: 0.5em;
+}
+
+#skills {
+  padding: 1em;
+}
+
+#projects {
+  padding: 10px 0 0 0;
+}
+
+body {
+  background-color: var(--gryfRed);
+  color: var(--ravenBronze);
+  font-family: matchbookmatchbook;
+}
+
+/* Desktop And Core Styles */
+/* Start.js */
+.full-page {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--slythGreen);
+  color: var(--slythSilver);
+  padding: 6em 0 0 0;
+}
+
+.page-title {
+  width: 85%;
+  height: 65%;
+  margin: 50px auto;
+}
+
+.big-title {
+  font-size: 12em;
+  text-align: center;
+  padding: 30px;
+}
+
+.list-group {
+  width: 10.75em;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  font-size: 6em;
+  margin: 0 auto;
+}
+
+.list-item {
+  padding: 5px;
+}
+
+/* Top.js */
+.heading-container {
+  height: 8em;
+  background-color: var(--brownish);
+}
+
+.main-heading {
+  padding: 1.25em 0 0 5em;
+}
+
+/* MainContent.js */
+.first-container {
+  margin: 2em 0 1em 0;
+}
+
+.first-sub-title {
+  font-size: 5.5em;
+  padding: 0 0 0 3em;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 0.75em 0 0 32em;
+}
+
+.sub-title {
+  font-size: 3em;
+}
+
+.first-title {
+  font-size: 6em;
+  padding: 0 0 0 0.15em;
+  color: var(--goldenYellow);
+}
+
+.below-title {
+  font-size: 4em;
+  padding: 0 0 0 8em;
+}
+
+/* About.js */
+.about-container {
+  width: 25em;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 3em;
+}
+
+.about-inner {
+  padding: 2em;
+  margin: 0 0 1em 0;
+}
+
+.about-content {
+  color: var(--goldenYellow);
+}
+span {
+  font-weight: 700;
+  color: var(--huffleYellow);
+}
+
+/* Skills.js */
+.outline {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  border: 5px solid var(--goldenYellow);
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.second-title {
+  font-size: 5em;
+  padding: 0.5em 0 0 3em;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 2em;
+}
+
+.grid {
+  margin: 1em auto;
+}
+
+.skills-titles {
+  font-size: 1.5em;
+  /* color: var(--goldenYellow); */
+}
+
+.list-containers {
+  list-style: none;
+  padding: 5px;
+  color: var(--slythSilver);
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.items {
+  width: 450px;
+  border: 5px solid var(--black);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.skills {
+  width: 150px;
+  padding: 0 0 0 5px;
+  border-radius: 5px;
+  background-color: var(--slythGreen);
+}
+
+.skill-1 {
+  width: 97%;
+}
+
+.skill-2 {
+  width: 88%;
+}
+
+.skill-3 {
+  width: 50%;
+}
+
+.skill-4 {
+  width: 83%;
+}
+
+.skill-5 {
+  width: 93%;
+}
+
+.skill-9 {
+  width: 58%;
+}
+
+/* Credentials.js */
+.cred-size {
+  height: 300px;
+  width: 500px;
+  border: 15px solid var(--slythGreen);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--slythSilver);
+}
+
+.cred-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: 2.5em auto;
+  row-gap: 2em;
+  column-gap: 2em;
+  padding: 40px;
+}
+
+.cred-container {
+  text-align: center;
+}
+
+/* Projects.js */
+embed {
+  object-fit: embed;
+  background-color: white;
+  height: 800px;
+}
+
+.project {
+  width: 95%;
+  margin: 4em auto;
+}
+
+.sos,
+.simple {
+  background-color: var(--ravenBlue);
+  border-radius: 1em;
+}
+
+.sos-title,
+.simple-title {
+  font-size: 5em;
+  padding: 5px 0 5px 20px;
+}
+
+/* ContactMe.js */
+.contact-card {
+  border: 2px solid var(--slythSilver);
+  background-color: var(--slythGreen);
+  border-radius: 10px;
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-title {
+  color: var(--slythSilver);
+  font-size: 8em;
+  margin: 20px 0 10px 0;
+}
+
+.contact-list {
+  list-style: none;
+  font-size: 3em;
+  margin: 0 0 30px 0;
+}
+
+.contact-items {
+  color: var(--gryfGold);
+  font-size: 125%;
+  margin: 20px 0 0 0;
+}
+
+/* Tablet and Mobile */

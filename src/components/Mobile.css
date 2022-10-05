@@ -1,0 +1,92 @@
+:root {
+  --black: #220901;
+  --brownish: #621708;
+  --maroonRed: #941b0c;
+  --mediumOrange: #bc3908;
+  --goldenYellow: #f6aa1c;
+
+  /* Hogwarts colors */
+  --gryfRed: #740001;
+  --gryfGold: #d3a625;
+  --slythGreen: #1a472a;
+  --slythSilver: #999898;
+  --huffleYellow: #ffd800;
+  --huffleBlack: #000000;
+  --ravenBlue: #0e1a50;
+  --ravenBronze: #bc832f;
+}
+
+@media screen and (max-width: 420px) {
+  /* Start.js */
+  .full-page {
+    padding: 2em 0 0 0;
+  }
+
+  .big-title {
+    font-size: 6em;
+  }
+
+  .list-group {
+    flex-direction: column;
+    font-size: 4em;
+  }
+
+  /* MainContent.js */
+  .first-sub-title {
+    padding: 0 0 0 30px;
+  }
+
+  .flex {
+    flex-direction: column;
+    padding: 1em 0 0 2em;
+  }
+
+  .below-title {
+    padding: 0 0 0 20px;
+  }
+
+  /* About.js */
+  .about-container {
+    width: 400px;
+  }
+
+  .about-inner {
+    padding: 20px;
+  }
+
+  /* Skills.js */
+  .outline {
+    padding: 1.25em;
+  }
+
+  .second-title {
+    padding: 0.5em 0 0 1em;
+  }
+
+  .second-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .items {
+    width: 300px;
+  }
+
+  /* Credentials.js */
+  .cred-size {
+    height: 200px;
+    width: 350px;
+  }
+
+  .cred-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  /* ContactMe.js */
+  .contact-card {
+    width: 95%;
+  }
+}
