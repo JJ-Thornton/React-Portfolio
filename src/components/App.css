@@ -289,15 +289,25 @@ embed {
 }
 
 .sos,
-.simple {
+.simple,
+.worth {
   background-color: var(--ravenBlue);
   border-radius: 1em;
 }
 
 .sos-title,
-.simple-title {
+.simple-title,
+.worth-title {
   font-size: 5em;
   padding: 5px 0 5px 20px;
+}
+
+.sos-project,
+.simple-project,
+.worth-project {
+  font-size: 2.5em;
+  width: 65%;
+  padding: 5px;
 }
 
 /* ContactMe.js */
