@@ -88,6 +88,8 @@
   .cred-size {
     height: 200px;
     width: 325px;
+    padding: 5px;
+    border: 5px solid var(--slythGreen);
   }
 
   .cred-grid {
