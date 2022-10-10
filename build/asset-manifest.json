@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.397a8837.css",
+    "main.js": "/static/js/main.215e0ace.js",
+    "static/js/787.8c6e614e.chunk.js": "/static/js/787.8c6e614e.chunk.js",
+    "static/media/python-1.jpg": "/static/media/python-1.716c895ff53af9359955.jpg",
+    "static/media/image-css.jpg": "/static/media/image-css.4cde9580bb1e642c0b8f.jpg",
+    "static/media/front-end.jpg": "/static/media/front-end.e1a7178f70d9c27cc3ac.jpg",
+    "static/media/javascript.jpg": "/static/media/javascript.97feeaa24f9a7f21c931.jpg",
+    "static/media/html.jpg": "/static/media/html.52af3757c4b29dc845d0.jpg",
+    "static/media/matchbook-webfont.woff": "/static/media/matchbook-webfont.bc147f0b459217d40a90.woff",
+    "static/media/matchbook-webfont.woff2": "/static/media/matchbook-webfont.fdd9199915c6e2449703.woff2",
+    "index.html": "/index.html",
+    "main.397a8837.css.map": "/static/css/main.397a8837.css.map",
+    "main.215e0ace.js.map": "/static/js/main.215e0ace.js.map",
+    "787.8c6e614e.chunk.js.map": "/static/js/787.8c6e614e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.397a8837.css",
+    "static/js/main.215e0ace.js"
+  ]
+}
