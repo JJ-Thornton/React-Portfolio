@@ -101,12 +101,12 @@ body {
 }
 
 .list-group {
-  width: 10.75em;
+  width: 13.5em;
   list-style: none;
   display: flex;
   flex-direction: row;
   gap: 1em;
-  font-size: 6em;
+  font-size: 4em;
   margin: 0 auto;
 }
 
@@ -338,4 +338,19 @@ embed {
   margin: 20px 0 0 0;
 }
 
-/* Tablet and Mobile */
+/* Bottom.js */
+.bottom-container {
+  background-color: var(--ravenBlue);
+  width: max-content;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
+.btt {
+  font-size: 3em;
+}
+
+.btt:hover {
+  color: var(--slythSilver);
+}

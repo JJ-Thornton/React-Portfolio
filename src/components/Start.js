@@ -18,6 +18,14 @@ const Start = () => {
           <li className="list-item">
             <a href="#contact-me">Contact Me</a>
           </li>
+          <li className="list-item">
+            <a
+              target="_blank"
+              href="https://github.com/JJ-Thornton/React-Portfolio/blob/master/README.md"
+            >
+              Github
+            </a>
+          </li>
         </ul>
       </div>
     </div>

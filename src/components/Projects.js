@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="project simple">
         <h2 className="simple-title">Simple Truth Church</h2>
         <p className="simple-project">
-          A simple approach to an homegrown church. The theme of the wordless
+          A simple approach to a homegrown church. The theme of the wordless
           book is what you find as you go through the site. A friend that
           pastors there told me about the problems they were having with their
           previous site, while I was in the very beginning of my coding journey,
