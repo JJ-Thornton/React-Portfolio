@@ -1,3 +1,11 @@
+Thank You for coming to look at the code! Before I break down the code more I'd Like to use this area for a little bit more about me. During 2020 everyone faced hardships on a global scale. For me it was equally difficult and a near fatal accident made it that much harder. In May 2020 I fell off a cliff, after 3.5 weeks in the hospital, full reconstuctive facial surgery, loss of site in my left eye, and 6 months of recovery staring me down. I now was unable to go back to my previous job and needed to figure something out. With nothing but months of sitting ahead I decided to use the time to learn coding. These things are the result of that time. I didn't want to clutter my actual portfolio with this, but I did want to talk about it a little bit. Back to the code.
+
+This site is made to be a stepping stone, while now it functions as a static site with little use of reacts full capabilities, as other projects I am working on become completed this provides a great foundation to apply them to.
+
+Pages broken up into components allow for easy editing and replacment, rather than sifting through lines and lines of html to find the section I need.
+
+Class based components add further ease in adding functionality to the app as well as implementing machine learning to certain features so that based on you the site will filter and select the best examples of work for what youre interested in.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
