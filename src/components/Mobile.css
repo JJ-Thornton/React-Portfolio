@@ -107,4 +107,8 @@
   .contact-card {
     width: 95%;
   }
+  
+  .contact-items {
+    font-size: 105%;
+  }
 }
