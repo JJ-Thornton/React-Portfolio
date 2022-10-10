@@ -20,6 +20,7 @@ const Start = () => {
           </li>
           <li className="list-item">
             <a
+              rel="noreferrer"
               target="_blank"
               href="https://github.com/JJ-Thornton/React-Portfolio/blob/master/README.md"
             >
